@@ -10,6 +10,8 @@
  */
 package com.yy.git.dev.idea;
 
+import com.yy.git.dev.STS;
+
 /**
  * 〈一句话功能简述〉<br> 
  * 〈dev-idea的分支创建新建类〉
@@ -22,6 +24,9 @@ public class DevIDEA {
     public static void main(String[] args) {
         System.out.println("创建dev-idea的分支");
         System.out.println("删掉GitDemo类");
+
+        STS sts =new STS();
+        sts.testSTS();
     }
 
 }

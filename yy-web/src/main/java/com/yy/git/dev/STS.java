@@ -1,8 +1,13 @@
 package com.yy.git.dev;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class STS {
-	public static void main(String[] args) {
-		System.out.println("sts创建一个新的分支dev");
-	}
+
+public void testSTS(){
+
+	log.error("dev-idea 分支修改");
+}
 
 }
