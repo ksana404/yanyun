@@ -1,3 +1,15 @@
+============ 启动  idea提交
+	1.先启动 redisCluster 位置: 192.168.64.140  具体启动位置: /usr/local/src/redis/cluster -->sh start.sh
+	启动 zookeeper 位置:192.168.64.128 具体启动位置: /usr/local/src/zookeeper/bin -->sh sh start-zkClu.sh
+
+	2.启动 nginx 	位置: D:\STS-tool\nginx-1.15.10
+	start nginx
+
+	3.启动 manage.lu.com
+	     启动 sso.lu.com
+	    启动 lu-web
+
+
 /**********  烟云购物商城    ****************/
 =这里是一个微服务商城项目,项目架构为Dubbo+SpringBoot+SpringMVC+MybatisPlus,前端页面由JSP实现.
 = 数据库是yydb(host:127.0.0.1  port:3306)
@@ -13,13 +25,13 @@
   
 
 =模块分为七个模块:
-后台管理系统: yy-manager
-Web前台: yy-web 
+后台管理系统: yy-manager 9080
+Web前台: yy-web 9082
 通用层: yy-common
-单点登录模块: yy-sso
-购物车模块: yy-cart
-订单模块: yy-order
-swagger演示模块: yy-swagger
+单点登录模块: yy-sso 9083
+购物车模块: yy-cart 9084
+订单模块: yy-order 9085
+swagger演示模块: yy-swagger 9086
 
 =启动步骤
  --1.启动Zookeeper集群
